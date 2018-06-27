@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'front-end-coffee',
@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
       coffe works! every {{ time || "mornin'" }}
     </p>
   `,
-  styles: ['p { border: 2px solid brown; }']
+  styles: ['p { border: 2px solid brown; }'],
+  encapsulation: ViewEncapsulation.Native
 })
 export class CoffeeComponent implements OnInit {
 
