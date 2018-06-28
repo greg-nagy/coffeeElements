@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none",
-    "postbuild": "cat dist/coffeeElements/{runtime,polyfills,scripts,main}.js | gzip > elements.js.gz",
+    "build": "ng build --prod",
+    "postbuild": "cat dist/coffeeElements/{runtime,polyfills,scripts,main}.*.js | gzip > elements.js.gz",
     "server": "http-server --gzip",
     "test": "ng test",
     "lint": "ng lint",

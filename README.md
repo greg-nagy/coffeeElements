@@ -1,27 +1,57 @@
 # CoffeeElements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+![Angular elements logo](https://cdn-images-1.medium.com/max/1200/1*0sOJS6TRrpfoBx2ArrAamw.png)
 
-## Development server
+## Bemutatkozas
+* Nagy Gergő (puffancs) - front-end krampácsoló @NetAcademia
+  * twitter: @_puffancs
+  * mail: nagy.gergo@front-end.coffee
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* front-end.coffee
+  * mail: hello@front-end.coffe
+  * facebook page: http://fb.com/frontendcoffee
+  * mailing list: http://bit.ly/frontEndCoffeeMailingList
+  * youtube channel: http://bit.ly/coffeeYoutube
+    * Subscribe pls! Kell a a 100 user custom domainhez :)
 
-## Code scaffolding
+## Miért ? - Megoldandó problémák
+* van egy korlátozó back-end és mégis szeretnénk Angular-t használni
+* sitebuilder/designerre-el szeretnék megosztani komponenseket, amikben van funkcionalitás 
+* frameworkok között szeretnék logikát mozgatni
+* kézközelből szerettem volna megnézni, hogy milyen is ezzel dolgozni
+  * talk-akból ami összeállt, az nem billent túl az esti mesén
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technológiai háttér
+* https://www.webcomponents.org/introduction
+* 4 fő technológia
+  * template
+  * html import 
+  * shadow dom
+  * custom elements
 
-## Build
+## Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Problémák
+* csomagolás egyelőre üti a webpack-es dolgokat, így a más framework alá beillesztés még nem megy
+  * de ennek a megoldás simán webpack kitanulása
+* nagy - Ivy azért még hiányzik nekünk nagyon
+* még nem annyira kiforrott
+* browser support még elég foghijjas https://caniuse.com/#search=custom%20elements
 
-## Running unit tests
+## Egyéb anyagok
+* Custom Elements MDN - https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements
+* Angular dokumentáció - https://angular.io/guide/elements
+* Pascal Precht - uphill conf
+  * https://www.youtube.com/watch?v=sCTQvsAoTek
+  * http://pascalprecht.github.io/slides/angular-elements
+  * https://stackblitz.com/edit/ng-element-demo-hello-world?file=index.html
+  * https://stackblitz.com/edit/ng-element-demo-mat-button?file=app%2Fapp.module.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Andrei Antal - ng-europe
+  * https://www.youtube.com/watch?v=-pS8M_RBf84
+  * https://github.com/andrei-antal/ng-europe-demo-angular-elements
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
